@@ -1,0 +1,27 @@
+# Environment variables (Sensitive data)
+backend/.env
+.env
+
+# Python caching & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local vector store data
+backend/data/vector_store.pkl
+backend/data/*.pdf
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/

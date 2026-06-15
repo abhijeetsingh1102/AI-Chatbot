@@ -1,0 +1,31 @@
+# Web interface
+streamlit==1.39.0
+
+# Backend server
+fastapi==0.115.0
+uvicorn==0.31.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# HTTP requests
+requests==2.32.3
+
+# LangChain utilities
+langchain==0.3.8
+langchain-community==0.3.2
+
+# Tokenization
+tiktoken==0.7.0
+
+# PDF extraction
+PyPDF2==3.0.1
+
+# Local Embeddings
+sentence-transformers==3.0.1
+
+# Form data uploading (required by FastAPI for UploadFile)
+python-multipart==0.0.32
+
+# PDF Generation (used in data generation scripts)
+reportlab==4.2.2
